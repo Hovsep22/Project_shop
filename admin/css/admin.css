@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #eee;
+}
+form{
+    background-color: #fff;
+    width: 40%;
+    height: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 20px 30px -15px #ccc;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.form-group img{
+    width: 80px;
+}
+form input{
+    padding: 10px;
+    width: 100%;
+}
+form input:focus{
+    outline: none;
+}
+#btn{
+    border: none;
+    background-color: #282828;
+    color: #eee;
+    padding: 10px 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: .3s;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #000;
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+.btn{
+    background-color: #282828;
+    color: #eee;
+    padding: 10px 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: .3s;
+    text-decoration: none;
+    box-shadow: 0 10px 20px -10px #ccc;
+}
+.btn:hover{
+    background-color: #000;
+}
+table{
+    width: 100%;
+    box-shadow: 0 20px 30px -10px #ccc;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+table tr th{
+    padding: 15px;
+    background-color: #282828;
+    color: #eee;
+    border: 1px solid #504f4f;
+}
+
+table tr td{
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+table tr td img{
+    width: 100px;
+}
+.action{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.action a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+    text-decoration: none;
+}
+#edit{
+    background-color: rgb(39, 170, 39);
+}
+#delete{
+    background-color: rgb(167, 32, 32);
+}
+#edit:hover{
+    background-color: rgb(22, 94, 22);
+}
+#delete:hover{
+    background-color: rgb(100, 19, 19);
+}
